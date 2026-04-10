@@ -171,8 +171,6 @@ public class Simple2048UI2 : MonoBehaviour
 
         Simple2048TileView tileView = tileObject.GetComponent<Simple2048TileView>();
 
-        tileView.CacheComponents();
-        
         tileView.RectTransform.sizeDelta = new Vector2(TileSize, TileSize);
         tileView.RectTransform.anchoredPosition = CellPositions[x, y];
 
